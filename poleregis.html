@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="./poleregister.css">
+</head>
+<body>
+	 <div id="window">
+         <i onclick="show('none')" id="close" class="far fa-times-circle" ></i>
+<div class="form" >
+    <h2 id="h2">Регистрация</h2>
+
+    <form action="" method="post">
+    
+    <input type="text" name="name1" placeholder="Имя" class="input" id="name1"><br><br>
+    
+    <input type="text" name="name2" placeholder="Фамилия" class="input" id="name2"><br><br>
+
+    <input type="email" name="email" placeholder="Введите email" class="input" id="email"><br><br>
+  
+    <input type="password" name="pass1" placeholder="Введите пароль" class="input " id="pass1">
+    <span class="eye" onclick="myfunc()">
+    <i id="hide1" class="fas fa-eye"></i>
+    <i id="hide2" class="fas fa-eye-slash"></i>
+    </span>
+    <br>
+    
+    <input type="number" name="date" placeholder="Укажите день рождение" class="input" id="calendar"><br><br>
+   
+    <input type="number" placeholder="Мобильный телефон" name="number" class="input" id="tel">
+
+    <center><input type="radio" name="radio1"> Мужчина <input type="radio" name="radio1" class="radio"> Женщина</center>
+    <br>
+      <center><a href="./index.html" id="submit" class="input">Регистрация</a></center>
+    
+   <p id="p">Нажимая "Регистрация", вы подтверждаете, что прочитали и согласны с нашими Условиями Пользования и Политикой Конфиденциальности.</p><input type="checkbox" name="cbox" class="input" id="cbox">
+    </form>
+</div>
+</div>
+
+	
+</body>
+<script>
+		(document).ready(function(){
+			("#submit").click(function(){
+				var name=("#name").val();
+				var surname=("#surname").val();
+				var email=("#email").val();
+				var pass=("#pass").val();
+				var pass1=("#pass1"),val();
+				if(name==""){
+					alert("Введите ваше имя");
+				}
+				if(surname==""){
+					alert("Введите вашу фамилию");
+				} 
+				else if(pass==""){
+					alert("Введите ваш пароль");
+				}
+				else if(pass1==""){
+					alert("Повторите пароль");
+				}
+				else if(pass!=pass1){
+					alert("Введенные пароли не совпадают");
+				}
+				else if(pass.lenght < 8){
+					alert("Пароль должен быть не меньше 8 символов");
+				}
+
+
+			});
+		});
+	</script>
+</html>

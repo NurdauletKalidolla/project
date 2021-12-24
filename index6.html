@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenovo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    
+
+
+    <div style="color: white;" class="ffirst">
+        <img src="logo.png" alt="">
+        <a href="index.html">НАСТОЛЬНЫЕ ПК И НОУТБУКИ</a>
+        <a href="index5.html">СМАРТФОНЫ</a>
+        <a href="">ДАТА-ЦЕНТРЫ</a>
+        <a href="">УМНЫЕ УСТРОЙСТВА</a>
+        <a href="index7.html">УСЛУГИ И РЕШЕНИЯ</a>
+        <a href="">ПОДДЕРЖКА</a>
+    </div>
+
+    <div class="d1" style="background-color: #001428; padding-bottom: 20px;">
+   <div class="glav" >
+        <div class="png" style="width: 600px; height: 500px;">
+            <img src="https://motorolaru.vtexassets.com/arquivos/ids/155676-800-800?v=637747614599100000&width=800&height=800&aspect=true" alt="" style="width: 600px; height: 500px;">
+        </div>
+        <div class="baga" style="width: 700px; margin-top: 20px; padding-left: 7px;">
+            <p class="soz" style="font-size: 30px; color: white;"><i>Motorola edge 20 / 8ГБ / 256 / 14 / Android</i></p>
+            <hr>
+        <div class="price" style="display: flex;">
+         <div style= "width: 350px;">
+            <div style="display: flex; width: 350px;">
+                <H1 style=" color: white" id="valyta">200 000 ₸</H1>
+                <div style="margin-left: 30px">
+                    <button onclick="dollar()" class="btn btn-outline-primary">$</button>
+                    <button onclick="euro()" class="btn btn-outline-primary">€</button>
+                    <button onclick="tenge()" class="btn btn-outline-primary">₸</button>
+                    <script>
+                        function dollar(){
+	                    	document.getElementById("valyta").innerHTML="460 $";
+	                        }                       
+                        function euro(){
+		                    document.getElementById("valyta").innerHTML="407 €";
+	                        }
+                        function tenge(){
+		                    document.getElementById("valyta").innerHTML="200 000 ₸";
+	                        }
+                    </script>
+
+                </div>
+            </div>
+            <div style="margin-top: 10px; width: 350px;">
+                <button style="width: 345px;" class="btn btn-success">Купить</button>
+            </div>
+            <div style="margin-top: 30px; width: 350px;  color: white">
+                <p>Описание</p>
+                <p>Диагональ дисплея, дюйм: 6.4</p>
+                <p>Серия процессора: Exynos 2100</p>
+                <p>Модель процессора: 3150U</p>  
+                <p>Объем оперативной памяти, ГБ: 8</p>
+                <p>Объем SSD накопителя, ГБ: 256</p>
+                <p>Операционная система: Android 10</p>
+                <p>Фотокамера, Мп: 12 + 108 + 10</p>
+            </div>
+        </div>
+        <div style="width: 350px; border: 1px solid rgb(184, 134, 11); padding-left: 5px;">
+            <p style="color: rgb(184, 134, 11); margin-top: 15px;">Ваш город: Алматы</p>
+            <p style="color: white;">Заказы от 10 000 тенге доставим бесплатно</p>
+            <h3 style="margin-top: 25px;  color: white">Cамовызов</h3>
+            <p style="margin-left: 15px;  color: white">Самовывоз из магазина</p>
+            <p style="margin-left: 15px;  color: white">Сегодня, 1 декабря - бесплатно</p>
+            <h3 style="margin-top: 25px;  color: white">Доставка</h3>
+            <p style="margin-left: 15px;  color: white">Курьерская доставка</p>
+            <p style="margin-left: 15px;  color: white">3 декабря - бесплатно</p>
+            <p style="margin-left: 15px;  color: white">Гарантия самой низкой цены</p>
+            <p style="color: white; margin-top: 50px;">Условия и стоимость доставки / самовывоза</p>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="otz"  style="margin-left: 200px; margin-top: 30px;">
+            <h3 style="color: white;">Оставьте отзыв</h3>
+            <textarea class="rrr" style="background-color:#03376b; color: white;" name="" id="" cols="50" rows="3"></textarea>
+        </div>
+    </div>
+
+
+    <div style="background-color:#03376b; margin-top: 60px;" class="konets">
+        <div class="eee" style="margin-left: 50px;  color: white">
+            <a href="">О LENOVO</a>
+            <a href="">ПРОДУКТЫ И УСЛУГИ</a>
+            <a href="">РЕСУРСЫ</a>
+        </div>
+        <p style="text-align: center; margin-top: 30px;  color: white">© 2021   Lenovo. Все права защищены</p>
+    </div>
+    </div>
+</body>

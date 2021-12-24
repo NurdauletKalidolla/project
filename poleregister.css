@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://www.teknolojionarim.com/wp-content/uploads/2019/09/efsse.jpg);
+    
+}
+#window{
+    width: 350px;
+    height: 600px;
+    margin: 40px auto;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    z-index: 150px;
+    display: block;
+    position:fixed ;
+    left: 0;
+    right: 0;
+    top: 20px;
+    bottom: 0;
+   }
+.form {
+    width: 275px;
+    margin: -15px auto 20px auto ;
+}
+
+.input {
+    width: 260px;
+    padding: 5px;
+    margin-bottom:10px ;
+}
+.radio {
+    margin-bottom: 5px;
+}
+#close{
+    margin: 10px 0 0 320px;
+    cursor: pointer;
+    font-size: 17px;
+}
+#submit {
+    border: 1px solid rgb(103,103,103);
+    cursor: pointer;
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+
+   }
+.fas {
+    margin-right: 10px;
+}
+.eye {
+    position: absolute;
+    justify-content: space-between;
+}
+#h2 {
+ text-align: center;
+}
+#p {
+    text-align: center;
+    width: 100%;
+}

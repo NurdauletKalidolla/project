@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenovo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="ffirst">
+        <img src="logo.png" alt="">
+        <a href="index.html">НАСТОЛЬНЫЕ ПК И НОУТБУКИ</a>
+        <a href="index5.html">СМАРТФОНЫ</a>
+        <a href="">ДАТА-ЦЕНТРЫ</a>
+        <a href="">УМНЫЕ УСТРОЙСТВА</a>
+        <a href="index7.html">УСЛУГИ И РЕШЕНИЯ</a>
+        <a href="">ПОДДЕРЖКА</a>
+    </div>
+
+    <div style="display: flex;">
+        <div style="width: 600px; height: 500px;">
+            <img src="https://www.notebookcheck-ru.com/uploads/tx_nbc2/LenovoLegionY540-17IRH__1_.jpg" alt="" style="width: 600px; height: 400px;">
+        </div>
+        <div style="width: 700px; margin-top: 20px; padding-left: 7px;">
+            <p style="font-size: 30px;">Lenovo Legion Y540 / 8ГБ / 128SSD / 128HDD / 14 / WIN 10 </p>
+            <hr>
+        <div style="display: flex;">
+         <div style= "width: 350px;">
+            <div style="display: flex; width: 350px;">
+                <H1 id="valyta">430 000 ₸</H1>
+                <div style="margin-left: 30px">
+                    <button onclick="dollar()" class="btn btn-outline-primary">$</button>
+                    <button onclick="euro()" class="btn btn-outline-primary">€</button>
+                    <button onclick="tenge()" class="btn btn-outline-primary">₸</button>
+                    <script>
+                        function dollar(){
+	                    	document.getElementById("valyta").innerHTML="986 $";
+	                        }                       
+                        function euro(){
+		                    document.getElementById("valyta").innerHTML="870 €";
+	                        }
+                        function tenge(){
+		                    document.getElementById("valyta").innerHTML="430 000 ₸";
+	                        }
+                    </script>
+
+                </div>
+            </div>
+            <div style="margin-top: 10px; width: 350px;">
+                <button style="width: 345px;" class="btn btn-success">Купить</button>
+            </div>
+            <div style="margin-top: 30px; width: 350px;">
+                <p>Описание</p>
+                <p>Диагональ дисплея, дюйм: 17.3</p>
+                <p>Серия процессора: Athlon Gold</p>
+                <p>Модель процессора: 3150U</p>  
+                <p>Объем оперативной памяти, ГБ: 8</p>
+                <p>Объем SSD накопителя, ГБ: 128</p>
+                <p>Операционная система: Win 10</p>
+                <p>Примечание: Поддерживает обновление до Windows 11</p>
+            </div>
+        </div>
+        <div style="width: 350px; border: 1px solid rgb(184, 134, 11); padding-left: 5px;">
+            <p style="color: rgb(184, 134, 11); margin-top: 15px;">Ваш город: Алматы</p>
+            <p>Заказы от 10 000 тенге доставим бесплатно</p>
+            <h3 style="margin-top: 25px;">Cамовызов</h3>
+            <p style="margin-left: 15px;">Самовывоз из магазина</p>
+            <p style="margin-left: 15px;">Сегодня, 1 декабря - бесплатно</p>
+            <h3 style="margin-top: 25px;">Доставка</h3>
+            <p style="margin-left: 15px;">Курьерская доставка</p>
+            <p style="margin-left: 15px;">3 декабря - бесплатно</p>
+            <p style="margin-left: 15px;">Гарантия самой низкой цены</p>
+            <p style="color: darkgray; margin-top: 50px;">Условия и стоимость доставки / самовывоза</p>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="konets">
+        <div class="eee" style="margin-left: 50px;">
+            <a href="">О LENOVO</a>
+            <a href="">ПРОДУКТЫ И УСЛУГИ</a>
+            <a href="">РЕСУРСЫ</a>
+        </div>
+        <p style="text-align: center; margin-top: 30px;">© 2021   Lenovo. Все права защищены</p>
+    </div>
+</body>
